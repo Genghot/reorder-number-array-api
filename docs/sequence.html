@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Reorder Number in Array API Workflow</title>
+    <style>
+        .box {
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .arrow {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reorder Number in Array API Workflow</h1>
+    <div class="box">Client sends POST request to /reorder</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">Server receives the request</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">Validate Input:</div>
+    <div class="box">Check if numbers is an array of integers</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">Check if order is "ascending" or "descending"</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">If validation fails:</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">Return 400 Bad Request with error message</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">If validation succeeds:</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">Reorder the numbers based on specified order</div>
+    <img class="arrow" src="arrow.png" alt="arrow" />
+    <div class="box">Prepare response JSON</div>
+    <div class="box">Return 200 OK with sorted_numbers</div>
+</body>
+</html>
